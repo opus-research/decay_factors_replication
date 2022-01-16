@@ -1,0 +1,4 @@
+remote_theme: pages-themes/cayman@v0.2.0
+title: ["On the Influential Interactive Factors on Degrees of Design Decay: A Multi-Project Study"]
+github:
+  repository_url: "https://github.com/opus-research/decay_factors_replication/tree/paper"

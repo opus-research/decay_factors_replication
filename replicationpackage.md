@@ -1,3 +1,5 @@
+[Back](https://opus-research.github.io/decay_factors_replication/)
+
 # Data Set
 
 ## File Change History
@@ -12,7 +14,7 @@
 
 **Observations**: N/A
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/file_changes)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/paper/replication_package/file_changes)**
 
 ## File Changes with Metrics
 
@@ -87,7 +89,7 @@
 
 **Observations**: This file contains additional metrics which weren't used in the analysis presented in the paper.
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/file_changes_with_all_metrics)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/paper/replication_package/file_changes_with_all_metrics)**
 
 ## Decay Score
 
@@ -99,7 +101,7 @@
 
 **Observations**: N/A
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/decay_score)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/paper/replication_package/decay_score)**
 
 ## Tagged Changes
 
@@ -111,7 +113,7 @@
 
 **Observations**: N/A
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/tagged_changes)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/paper/replication_package/tagged_changes)**
 
 ## Association Rules
 
@@ -125,11 +127,11 @@
 * **Confidence**: Confidence metric.
 * **Lift**: Lift metric.
 
-**Observations**: Separated into two csvs for each project. They are named `<PROJECT>_low` for rules inferred from slightly-decayed classes and `<PROJECT>_high` for ones inferred from largely-decayed classes. 
+**Observations**: Separated into two csvs for each project. They are named `<PROJECT>_low` for rules inferred from slightly-decayed classes and `<PROJECT>_high` for ones inferred from largely-decayed classes.
 
 A third set of CSVs, containing rules from all classes is present in the second link.
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/association_rules)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/tree/paper/replication_package/association_rules)**
 
 **[Download Link (All classes)](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/rules_all_groups)**
 
@@ -150,4 +152,4 @@ A third set of CSVs, containing rules from all classes is present in the second 
 
 **Observations**: Since these csvs aggregate the association rules from both rules, the support, confidence and lift metrics are split. They are named `<METRIC>_low` when inferred from slightly-decayed classes and `<METRIC>_high` when inferred from largely-decayed classes.
 
-**[Download Link](https://github.com/opus-research/decay_factors_replication/blob/master/replication_package/summarized_rules)**
+**[Download Link](https://github.com/opus-research/decay_factors_replication/blob/paper/replication_package/summarized_rules)**
